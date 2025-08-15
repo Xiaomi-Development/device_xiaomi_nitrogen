@@ -7,7 +7,7 @@
 # Inherit from sdm660-common
 include device/xiaomi/sdm660-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/xiaomi/whyred
+DEVICE_PATH := device/xiaomi/nitrogen
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
@@ -16,8 +16,11 @@ TARGET_SCREEN_WIDTH := 1080
 # Display
 TARGET_SCREEN_DENSITY := 440
 
+# FM
+BOARD_HAVE_QCOM_FM := true
+
 # Kernel
-TARGET_KERNEL_CONFIG += vendor/xiaomi/whyred.config
+TARGET_KERNEL_CONFIG += vendor/xiaomi/nitrogen.config
 
 # Partitions
 BOARD_SYSTEMIMAGE_PARTITION_SIZE := 3221225472
@@ -37,4 +40,4 @@ DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibi
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Inherit the proprietary files
-include vendor/xiaomi/whyred/BoardConfigVendor.mk
+include vendor/xiaomi/nitrogen/BoardConfigVendor.mk

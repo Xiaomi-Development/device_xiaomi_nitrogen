@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_whyred.mk
+    $(LOCAL_DIR)/lineage_nitrogen.mk
+
+COMMON_LUNCH_CHOICES := \
+    lineage_nitrogen-user \
+    lineage_nitrogen-userdebug \
+    lineage_nitrogen-eng

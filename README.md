@@ -1,35 +1,26 @@
-# Device configuration for Redmi Note 5
+# Device Tree for Mi Max 3 (nitrogen)
 
-The Redmi Note 5 (codenamed _"whyred"_) is a mid-range smartphone from Xiaomi.
+The Mi Max 3 (codenamed _"nitrogen"_) is a high-end mid-range Phablet from Xiaomi.
 
-It was announced and released in March 2018.
+Xiaomi Mi Max 3 was released in July 2018.
 
 ## Device specifications
 
-Basic                   | Spec Sheet
--:                      | :-
-SoC                     | Qualcomm SDM636 Snapdragon 636
-CPU                     | 8x Qualcomm® Kryo™ 260 up to 1.8GHz
-GPU                     | Adreno 509
-Memory                  | 3/4/6 GB RAM (LPDDR4X)
-Shipped Android Version | 8.1
-Storage                 | 32/64/128 GB eMMC 5.1 flash storage
-Battery                 | Non-removable Li-Po 4000 mAh
-Dimensions              | 158.6 x 75.4 x 8.05 mm
-Display                 | 2160 x 1080 (18:9), 5.99 inch
-Rear camera 1           | 12MP, 1.4µm, f/1.9, Dual LED flash
-Rear camera 2           | 5MP, 1.25µm, f/2.0
-Front camera            | 13MP, 1.12µm, f/2.0, 1080p 30 fps video, Selfie-light
+| Device        |           Xiaomi Mi Max 3                       |
+| -----------:  | :---------------------------------------------- |
+| SoC           | Qualcomm SDM636 Snapdragon 636                  |
+| CPU           | 8x Qualcomm® Kryo™ 260 up to 1.8GHz             |
+| GPU           | Adreno 509                                      |
+| Memory        | 4GB / 6GB RAM (LPDDR4X)                         |
+| Android       | 8.1                                             |
+| Storage       | 64GB / 128GB eMMC 5.1 flash storage             |
+| Battery       | Non-removable Li-Po 5500 mAh                    |
+| Dimensions    | 176.2 x 87.4 x 8 mm                             |
+| Display       | 2160 x 1080 (18:9), 6.9 inch                    |
+| Rear camera 1 | 12 MP, f/1.9, 1/2.55", 1.4µm, dual pixel PDAF	  |
+| Rear camera 2 | 5 MP, f/2.2, (depth sensor)                     |
+| Front camera  | 8 MP, f/2.0, 1/4.0", 1.12µm                     |
 
 ## Device picture
 
-![Xiaomi Redmi Note 5](https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1539574590.67679832!400x400!85.png "Xiaomi Redmi Note 5")
-
-## Copyright
-
-```
-#
-# Copyright (C) 2020 The LineageOS Project
-#
-# SPDX-License-Identifier: Apache-2.0
-#
+![Xiaomi Mi Max 3](https://fdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-mi-max3-1.jpg)

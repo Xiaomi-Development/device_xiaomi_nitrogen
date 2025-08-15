@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=whyred
+export DEVICE=nitrogen
 export DEVICE_COMMON=sdm660-common
 export VENDOR=xiaomi
 

@@ -70,4 +70,4 @@ PRODUCT_PACKAGES += \
     WhyredWifiOverlay
 
 # Inherit the proprietary files
-$(call inherit-product, vendor/xiaomi/whyred/whyred-vendor.mk)
+$(call inherit-product, vendor/xiaomi/nitrogen/nitrogen-vendor.mk)
